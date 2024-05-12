@@ -1,0 +1,16 @@
+p {
+	
+	background: black;
+	padding: 15px;
+}
+
+a {
+	margin: 10px;
+	box-shadow: 1px 10px 10px;
+	font-size: 20px;
+	padding: 3px;
+	color: white;
+	text-decoration: none;
+	border: 1px white solid;
+	border-radius: 3px;
+}

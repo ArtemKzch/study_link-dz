@@ -1,0 +1,30 @@
+body {
+  box-sizing: border-box;
+  color: white;
+  font-family: cursive;
+  background: rgb(236, 56, 56);
+}
+
+.end {
+  cursor: pointer;
+  background: turquoise;
+  border: none;
+  border-radius: 100px;
+  font-size: 20px;
+  padding: 20px;
+  margin-top: 50px; 
+  box-shadow: 7px 7px 0;
+  transition: 700ms;
+}
+
+.end:hover {
+  box-shadow: 0 0 0;
+}
+
+.start {
+  margin-bottom: 20px;
+}
+
+center {
+  margin-bottom: 20px;
+}

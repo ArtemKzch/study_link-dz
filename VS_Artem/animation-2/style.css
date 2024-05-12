@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.name {
+    width: 150px;
+    height: 150px;
+    background: lightgreen;
+    animation: coclick 10s linear 1s infinite alternate;
+    transition: all 1s ease;
+}
+
+@keyframes coclick {
+    0% {
+        background: firebrick;
+    }
+    1% {
+        height: 200px;
+        width: 200px;
+    }
+    30% {
+        transform: rotateZ(45deg);
+    }
+    50% {
+        transform: translate(100px, 0px);
+    }
+    60% {
+        transform: rotateX(360deg);
+    }
+    80% {
+        border: 100px solid fed;
+    }
+    90% {
+        transform: rotateY(360deg);
+    }
+    100% {
+        background: blue;
+    }
+}
+
+.div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div img {
+    width: 150px;
+    height: 150px;
+}
+
+.div-2 {
+
+}
+
+.div-2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    animation: name duration timing-function delay iteration-count;
+}

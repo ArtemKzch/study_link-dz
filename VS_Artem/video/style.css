@@ -1,0 +1,40 @@
+body {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: url(./1174705.jpg) fixed no-repeat ;
+  background-size: cover;
+}
+
+p, h1 {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(71, 71, 71, 0.8);
+  background-color: rgba(95, 95, 95, 0.8);
+  animation: changeColor 1s infinite ease-in alternate;
+}
+
+@keyframes changeColor {
+  0% {
+    color: white;
+  },
+
+  25% {
+    color: rgb(255, 135, 135);
+  }
+}
+
+h1 {
+  margin: auto;
+  width: 350px;
+}
+
+h2 {
+  text-align: center
+}
+
+h2:hover {
+  text-align: center;
+  width: 600px;
+  height: 355px;
+}
